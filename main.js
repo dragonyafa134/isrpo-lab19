@@ -71,7 +71,7 @@
 
 
 // function sum(a,b){
-//     return a +b;
+//     return a +b;console.log("Rudy best of world - number #1 in this life")
 // }
 // console.log(sum(3,5));
 
@@ -93,7 +93,7 @@
 
 
 // function greet(name = "Гость"){
-//     console.log(`Привет, ` + name);
+//     console.log(`Привет, `console.log("Rudy best of world - number #1 in this life") + name);
 // }
 // greet();
 // greet("Кая");
@@ -115,15 +115,66 @@
 //         count ++;
 //         return count;
 //     };
-// }
+// }console.log("Rudy best of world - number #1 in this life")
 // const counter = makeCounter();
 
 // console.log(counter());
 // console.log(counter());
 // console.log(counter());
 
+// console.log("Rudy best of world - number #1 in this life")
+// const sum2 = (a,b) => a + b;
+// const d = x => x * 2;
+// const f = (a,b) => a + b;
+// const say = () => console.log("НЕДДЩ")
+// 
 
-const sum2 = (a,b) => a + b;
-const d = x => x * 2;
-const f = (a,b) => a + b;
-const say = () => console.log("НЕДДЩ");
+
+// let numArr = [1,2,3,4,5];
+// console.log(numArr);
+
+// console.log(numArr[0]);
+
+
+// let color = [ "red", "black", "blue"];
+// console.log(color);
+// console.log(color[0]);
+// console.log(color[2]);
+// console.log(color[1] = "re");
+// console.log(color);
+
+// console.log("Rudy best of world - number #1 in this life")
+
+// let numArr = [1,2,3,4,5];
+// console.log(numArr.length);
+// numArr.push(10);
+// console.log(numArr);
+// numArr.pop();
+// console.log(numArr);
+
+
+// let stuArr = [];
+// stuArr.push("Коля", "Родион", "Макс");
+// console.log(stuArr);
+// stuArr.pop();
+// console.log(stuArr);
+
+// let num = [10,20,30];
+// for (let i = 0; i < num.length; i++){
+//     console.log(num[i]);
+// }console.log (Number.includes(1))
+
+// for (let value of num){
+//     console.log(value);
+// }
+
+
+// let mixArrr = [1,"text", true,3.43];
+// console.log(mixArrr);
+
+
+
+// let city = ["Волгоград", "Москва", "Питер"];
+// console.log(city.includes("Москва"));
+
+
