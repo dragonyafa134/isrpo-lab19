@@ -68,3 +68,62 @@
 //     }
 //     console.log(s);
 // }
+
+
+// function sum(a,b){
+//     return a +b;
+// }
+// console.log(sum(3,5));
+
+// function muitiply(a,b){
+//     return a - b;
+// }
+// console.log(muitiply(3,41));
+
+
+// function sayHello(name){
+//     console.log(`Hello, ${name}`);
+// }
+// sayHello("Родион");
+
+// function printInfo(name, age){
+//     console.log(`hello ${name} , мой возраст ${age}`);
+// }
+// printInfo("Катя", 34)
+
+
+// function greet(name = "Гость"){
+//     console.log(`Привет, ` + name);
+// }
+// greet();
+// greet("Кая");
+
+// function calculateDiscount(sum, pr = 10){
+//     console.log(sum/pr);
+// }
+// calculateDiscount(23);
+// calculateDiscount(23, 3);
+
+// const add = function (a,b) {
+//     return a + b;
+// };
+// console.log(add(2,3));
+
+// function makeCounter(){
+//     let count = 0;
+//     return function(){
+//         count ++;
+//         return count;
+//     };
+// }
+// const counter = makeCounter();
+
+// console.log(counter());
+// console.log(counter());
+// console.log(counter());
+
+
+const sum2 = (a,b) => a + b;
+const d = x => x * 2;
+const f = (a,b) => a + b;
+const say = () => console.log("НЕДДЩ");
