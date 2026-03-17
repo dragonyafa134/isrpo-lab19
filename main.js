@@ -178,3 +178,64 @@
 // console.log(city.includes("Москва"));
 
 
+// let user2 = {
+//     name:"Ivan",
+//     age: 20,
+//     isStudent: true,
+//     sayHello: function() {
+//         console.log("hello my name ${name}");
+//     },
+// };
+// console.log(user2);
+// console.log(user2.name);
+// console.log(user2.age);
+// user2.age = 30;
+// user2.name = "Кирилл";
+// delete user2.isStudent;
+// console.log(user2);
+// user2.sayHello();
+// for(let key in user2){
+//     console.log(key + ": " + user2[key]);
+// }
+
+// let book = {
+//     title:"Евгений",
+//     author: "Пушкин",
+//     year: 1989,
+// };
+// console.log(book);
+// console.log(book.year = 1999);
+// console.log(book);
+
+
+// let car = {
+//     brand : "bmw",
+//     year : 2000,
+//     getInfo: function() {
+//         console.log(`Информация о машине бренд ${brand} код выпуска  ${year}`);
+//     },
+// };
+// console.log(car);
+// user2.getInfo();
+
+
+let product_people = {
+    name:"Кузя",
+    age: 23,
+    isStudent: true,
+    cooking: false,
+};
+for(let key in product_people){
+    console.log(key + ": " + product_people[key]);
+}
+
+let stun = {
+    name: "Григорий",
+    skills : ["html","css"],
+    addres : {
+        city: "Волга",
+        street : "Пушкина",
+    } ,
+};
+console.log(stun.skills[0]);
+console.log(stun.addres.city);
